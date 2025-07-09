@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: antiquewhite;
 }
 
 .Form1 {
@@ -10,4 +11,8 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+.App {
+  background-color: red;
 }
