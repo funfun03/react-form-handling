@@ -5,10 +5,10 @@ import FormShowcase from "./components/FormShowcase";
 
 function App() {
   return (
-    <div>
-      {/* <FormShowcase /> */}
+    <div className="appContainer">
+      <FormShowcase />
       <div className="App">
-        {/* <RegisterForm /> */}
+        <RegisterForm />
         <GroviaLoginForm />
       </div>
     </div>

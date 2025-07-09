@@ -14,5 +14,17 @@
 }
 
 .App {
-  background-color: red;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }

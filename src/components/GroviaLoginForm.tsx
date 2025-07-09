@@ -145,7 +145,7 @@ const GroviaLoginForm: React.FC = () => {
             <div>
               <label
                 htmlFor="username"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-left text-sm font-medium text-gray-700 mb-2"
               >
                 Username
               </label>
@@ -158,7 +158,7 @@ const GroviaLoginForm: React.FC = () => {
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400"
               />{" "}
               {errors.email && (
-                <p className="text-red-500 text-sm mt-1">
+                <p className="text-red-500 text-sm mt-1 text-left">
                   {errors.email.message}
                 </p>
               )}
@@ -168,7 +168,7 @@ const GroviaLoginForm: React.FC = () => {
             <div>
               <label
                 htmlFor="password"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-left text-sm font-medium text-gray-700 mb-2"
               >
                 Password
               </label>
@@ -182,7 +182,7 @@ const GroviaLoginForm: React.FC = () => {
                   className="w-full px-4 py-3 pr-12 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400"
                 />{" "}
                 {errors.password && (
-                  <p className="text-red-500 text-sm mt-1">
+                  <p className="text-red-500 text-sm mt-1 text-left">
                     {errors.password.message}
                   </p>
                 )}
